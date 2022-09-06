@@ -1,0 +1,26 @@
+.slider_footer {
+	.carousel-caption {
+		bottom: inherit;
+		top: 6rem;
+		img {
+			margin: 40px 0 50px 0;
+		}
+	}
+	.carousel-indicators {
+		.slider_footer__button {
+				bottom: inherit;
+				top: 0;
+			}
+	}
+	
+	&__text {
+		margin: 0 auto;
+		max-width: 655px;
+		margin-bottom: 35px;
+		font-family: 'Raleway', sans-serif;
+		font-size: 24px;
+	}
+	&__name {
+		font-family: 'Playfair Display', serif;
+	}
+}

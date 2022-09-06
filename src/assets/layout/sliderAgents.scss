@@ -1,0 +1,182 @@
+.slider_agents {
+	justify-content: space-between;
+	&__img {
+		max-height: 467px;
+		height: 100%;
+	}
+	&_content__header {
+		text-align: left;
+		// position: relative;
+		img {
+			margin: 35px 0;
+		}
+	}
+	&_content__name {
+		text-align: left;
+		font-size: 25px;
+		font-family: 'Playfair Display', serif;
+		font-weight: 700;
+	}
+	&_content__text {
+		margin: 35px 0;
+		text-align: left;
+		font-size: 16px;
+		font-family: 'Playfair Display', serif;
+		color: #8f8f8f;
+	}
+	&_content__title {
+		font-size: 45px;
+	}
+	&_content__links {
+		display: flex;
+			 i {
+				margin-right: 15px;
+			 }
+	}
+	&_content__phone {
+		margin-right: 25px;
+	}
+	&_content__maill {
+		a {
+				text-decoration: underline;
+				color: coral;
+				font-family: 'Playfair Display', serif;
+				transition: color .4s linear;
+
+				&:hover {
+					color: rgb(211, 84, 37);
+				}
+			}
+	}
+	&_content__buttons {
+		bottom: inherit;
+		top: 5%;
+		right: 30%
+	}
+
+	&__footer {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		padding: 20px;
+		min-height: 100px;
+	
+	}
+	&__footer__title {
+		font-size: 37px;
+	}
+	&__footer__button {
+		width: 170px;
+		.btn-danger{
+			font-size: 16px;
+			font-family: 'Raleway', sans-serif;
+			background: #e2574c;
+			transition: background .3s linear ;
+
+			&:hover {
+				background: #b61e14;
+			}
+		}
+		
+	}
+	
+	
+	
+	
+	
+	
+	.carousel {
+			height: 100%;
+
+			.carousel-indicators {
+					button {
+							background-color: rgb(253, 246, 246);
+							width: 10px;
+							height: 10px;
+							border-radius: 50%;
+							border: 2px solid #8f8f8f
+					}
+					button.active {
+						background-color: rgb(233, 36, 36);
+					}
+			}
+			.carousel-item {
+				height: 100%;
+				
+			}
+			.carousel-caption {
+					&__info {
+						color: black;
+					}
+			}
+	}
+}
+
+
+// <div class="slider_agents row d-flex justify-content-center">
+// 				<!-- image -->
+// 				<div class="col-sm-4">
+// 						<img  src="@/assets/img/catalog/Gerrard.png" class="slider_agents__img" alt="...">
+// 					</div>
+// 				<!-- sliser -->
+// 		<div class="col-sm-8">
+// 			<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+// 				<div class="carousel-indicators">
+// 					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+// 					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+// 					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+// 				</div>
+// 				<div class="carousel-inner">
+// 					<div class="carousel-item  active">
+					
+							
+				
+							
+// 										<div class="slider_agents_content__header">
+// 											<h3 class="slider_agents_content__title">Our <strong>Agents</strong></h3>
+// 											<img src="../assets/img/catalog/line_slider.png" alt="">
+// 										</div>
+
+// 										<div class="slider_agents_content__content">
+// 											<h3 class="slider_agents_content__name">Lisa Vakovski</h3>
+// 											<div class="slider_agents_content__text">
+// 												Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ratione quas placeat voluptatem ipsam aperiam quis suscipit, omnis adipisci nobis recusandae porro ex nesciunt amet, aut, cupiditate reiciendis est? Sed suscipit voluptates odio architecto similique beatae aliquam nisi reprehenderit magnam, a laudantium iste odit, quo, dignissimos repudiandae ea cumque fugit.
+// 											</div>
+// 											<div class="slider_agents_content__links">
+// 												<div class="slider_agents_content__phone">
+// 													<a href="tel:+71234567899" class="slider_agents_content__tel"><i class="fa-solid fa-phone"></i>+7(123)456-78-99</a>
+// 												</div>
+// 												<div class="slider_agents_content__maill">
+// 													<a href="mailto:lisa.gerrard@realhome.com" class="slider_agents_content__maill"><i class="fa-solid fa-envelope"></i>lisa.gerrard@realhome.com</a>
+// 												</div>
+// 											</div>
+// 										</div>
+							
+// 					</div>
+// 					<div class="carousel-item">
+// 					<!-- sliser -->
+// 										<div class="slider_agents_content__header">
+// 											<h3 class="slider_agents_content__title">Our <strong>Agents</strong></h3>
+// 											<img src="../assets/img/catalog/line_slider.png" alt="">
+// 										</div>
+
+// 										<div class="slider_agents_content__content">
+// 											<h3 class="slider_agents_content__name">Gerrard Vakovski</h3>
+// 											<div class="slider_agents_content__text">
+// 												Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ratione quas placeat voluptatem ipsam aperiam quis suscipit, omnis adipisci nobis recusandae porro ex nesciunt amet, aut, cupiditate reiciendis est? Sed suscipit voluptates odio architecto similique beatae aliquam nisi reprehenderit magnam, a laudantium iste odit, quo, dignissimos repudiandae ea cumque fugit.
+// 											</div>
+// 											<div class="slider_agents_content__links">
+// 												<div class="slider_agents_content__phone">
+// 													<a href="tel:+71234567899" class="slider_agents_content__tel"><i class="fa-solid fa-phone"></i>+7(123)456-78-99</a>
+// 												</div>
+// 												<div class="slider_agents_content__maill">
+// 													<a href="mailto:lisa.gerrard@realhome.com" class="slider_agents_content__maill"><i class="fa-solid fa-envelope"></i>lisa.gerrard@realhome.com</a>
+// 												</div>
+// 											</div>
+// 										</div>
+// 							</div>
+					
+// 				</div>
+// </div>
+// 		</div>
+// 	</div>
