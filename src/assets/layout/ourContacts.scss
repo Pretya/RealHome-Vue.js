@@ -1,0 +1,95 @@
+.our_contacts {
+	margin-top: 70px;
+	&__title {
+		width: 100%;
+		text-align: left;
+		font-size: 45px;
+		margin: 50px 0 75px 0;
+	}
+	&__info {
+		text-align: left;
+	}
+	&__info__contacts {
+		margin-bottom: 180px;
+		li {
+			margin-bottom: 10px;
+			display: flex;
+			justify-content: left;
+			color: #797979;
+			align-items: center;
+			line-height: 1.5;
+			a {
+			color: #797979;
+			font-family: 'Playfair Display', serif;
+			font-size: 16px;
+			}
+			.line {
+				color: red;
+				text-decoration: underline;
+			}
+		}
+	}
+	&__info__title {
+		margin: 70px 0 40px 0;
+		font-size: 37px;
+		font-family: 'Raleway', sans-serif;
+	}
+	&__info__text {
+		font-family: 'Playfair Display', serif;
+		line-height: 1.5;
+		font-size: 16px;
+		color: #797979;
+	}
+	&__info__adress {
+		font-family: 'Playfair Display', serif;
+		font-weight: 600;
+		line-height: 1.5;
+		font-size: 16px;
+		color: #797979;
+	}
+	&__comments {
+		margin-left: 60px;
+		text-align: left;
+	}
+	&__comments__form {
+		
+		input {
+			padding: 20px;
+			width: 330px;
+			height: 60px;
+			margin-right: 30px;
+			border: 2px solid #7979798a;
+		}
+		textarea {
+			padding: 20px;
+			margin: 35px 0 35px 0;
+			width: 750px;
+			border: 2px solid #7979798a;
+		}
+	}
+	&__comments__title {
+		margin: 70px 0 40px 0;
+		font-size: 37px;
+		font-family: 'Raleway', sans-serif;
+	}
+	&__comments__form__buttons {
+		button {
+			font-size: 18px;
+			font-family: 'Raleway', sans-serif;
+			font-weight: 700;
+			margin-right: 20px;
+			width: 100px;
+			height: 60px;
+		}
+		.btn-light {
+			
+			color: #c2c1c1;
+			border: 2px solid #7979798a;
+			&:hover {
+				color: #a3a2a2;
+				border: 2px solid #7979798a;
+				background: rgb(221, 220, 220);
+			}
+		}
+	}
+}

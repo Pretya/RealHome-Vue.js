@@ -1,6 +1,5 @@
 <template>
 	<div class="footerView">
-			
 		<div class="footer__container">
 			<div class="row">
 				<div class="col">
@@ -63,8 +62,6 @@
 
 			</div>
 		</div>
-		
-		
 	</div>
 </template>
 
@@ -101,6 +98,7 @@ export default {
 		height: 100%;
 		
 		.col {
+			
 			padding: 80px 0 0 0;
 			.footer__maill {
 				color: rgb(197, 52, 52);

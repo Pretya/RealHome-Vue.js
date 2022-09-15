@@ -1,12 +1,32 @@
 <template>
 	<div class="conteiner">
-		Blog
+		<our-blog-view 
+		:data="blogData"
+		:info="blogInfo"
+		:icons="blogIcons"
+		:comment="blogComments"
+		:recent="blogRecent"
+		></our-blog-view>
 	</div>
 </template>
 
 <script>
+	import OurBlogView from '@/components/OurBlog/OurBlogView.vue';
+	import { blogData, blogInfo, blogIcons, blogComments, blogRecent} from '@/data/data.blog'
 export default {
-	name: 'BlogView'
+	components: {
+		OurBlogView
+	},
+	name: 'BlogView',
+	data() {
+		return {
+			blogData: blogData,
+			blogInfo: blogInfo,
+			blogIcons: blogIcons,
+			blogComments: blogComments,
+			blogRecent: blogRecent
+		}
+	}
 }
 </script>
 

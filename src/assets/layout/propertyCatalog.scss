@@ -1,0 +1,53 @@
+.property_catalog {
+	margin-top: 70px;
+
+	&__title {
+		width: 100%;
+		font-size: 45px;
+		margin-top: 35px;
+	}
+	&__city {
+		display: flex;
+		justify-content: center;
+		margin: 70px 0 80px 0;
+	}
+	&__city__list {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+
+		li {
+			margin: 0 auto;
+			font-size: 16px;
+			font-family: 'Raleway', sans-serif;
+			font-weight: 600;
+
+			
+		}
+	}
+	&__city__carts {
+		margin-bottom: 60px;
+		.price {
+			font-family: Arial, Helvetica, sans-serif;
+			color: #e46b60;
+		}
+	}
+	.active {
+		border-bottom: 3px solid red;
+		a {
+			color: #797979;
+		}
+	}
+
+	&__pagination__item {
+		margin: 0 auto;
+		padding: 20px;
+		background: #e2574c;
+		border-radius: 5px;
+		a {
+			font-family: 'Raleway', sans-serif;
+			font-size: 16px;
+			color: white;
+		}
+	}
+}

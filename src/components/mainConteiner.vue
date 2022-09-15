@@ -9,7 +9,7 @@
 		<main class="flex-fill container-fluid p-0">
 				<slot></slot>
 		</main>
-		<footer >
+		<footer>
 			<slot name="footer"></slot>
 		</footer>
 	</div>

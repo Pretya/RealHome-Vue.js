@@ -1,0 +1,139 @@
+.our__blog {
+	margin-top: 70px;
+	&__left {
+		max-width: 750px;
+	}
+	&__title {
+		font-family: 'Raleway', sans-serif;
+		font-size: 45px;
+		margin: 35px 0 40px 0;
+	}
+	&__text {
+		font-family: 'Playfair Display', serif;
+		font-size: 16px;
+		color: $grey;
+		line-height: 1.5;
+	}
+	&__img {
+		margin: 45px 0;
+		img {
+			max-width: 735px;
+		}
+	}
+	&__subtitle {
+		margin: 40px 0;
+		font-family: 'Raleway', sans-serif;
+		font-size: 20px;
+	}
+	&__left__list {
+		display: flex;
+		margin: 70px 0;
+	}
+	&__left__item {
+		margin-right: 15px;
+		font-size: 12px;
+		font-family: 'Raleway', sans-serif;
+		color: $grey;
+
+		a {
+			color: $red;
+		}
+		&::after {
+			content: '/';
+			margin-left: 15px;
+		}
+	}
+	&__left__icon {
+		margin-bottom: 90px;
+	}
+	&__comments {
+		margin-bottom: 125px;
+	}
+	&__comments__title {
+		font-family: 'Raleway', sans-serif;
+	
+		font-size: 20px;
+		color: #797979;
+		margin: 100px 0 55px 0;
+	}
+	&__comments__content__avatar {
+		margin-right: 35px;
+	}
+	&__comments__content__post__header {
+		font-family: 'Raleway', sans-serif;
+		font-size: 23px;
+	}
+	&__comments__content__post__main {
+		margin: 20px 0; 
+		font-family: 'Playfair Display', serif;
+		font-size: 16px;
+		line-height: 1.5;
+	}
+	&__comments__content__post__footer {
+		font-family: 'Raleway', sans-serif;
+		font-size: 12px;
+		font-weight: 600;
+		text-transform: uppercase;
+		a {
+			color: blue;
+		}
+	}
+
+	// Right
+
+	&__right {
+		
+		margin: 130px auto;
+		max-width: 315px;
+	}
+	&__right__link {
+		font-family: 'Raleway', sans-serif;
+		font-size: 16px;
+		color: $grey;
+		transition: color .3s linear;
+
+		&:hover {
+			color: $red;
+		}
+	}
+	&__right__title {
+		font-family: 'Raleway', sans-serif;
+		font-size: 20px;
+		margin-bottom: 40px;
+		color: $primary;
+	}
+	&__right__categories {
+		margin-bottom: 70px;
+	}
+	&__right__archives {
+		margin-bottom: 70px;
+	}
+	&__right__archives__item {
+		max-width: 215px;
+		text-align: left;
+	}
+	&__right__categories__list {
+	
+		margin-bottom: 25px;
+	}
+	&__right__archives__list {
+		
+		margin-bottom: 25px;
+	}
+	&__right__recent__subtitle {
+		font-family: 'Raleway', sans-serif;
+		font-size: 16px;
+		margin-bottom: 20px;
+	}
+	&__right__recent__text{
+		font-family: 'Playfair Display', serif;
+		font-size: 14px;
+		margin-bottom: 40px;
+		line-height: 1.5;
+
+		p {
+			margin: 20px 0;
+			color: $grey;
+		}
+	}
+}

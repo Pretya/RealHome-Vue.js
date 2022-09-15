@@ -1,13 +1,22 @@
 <template>
 	<div class="conteiner">
-		Property
+		<property-catalog-view :data="propertiesData"></property-catalog-view>
 	</div>
 </template>
 
 <script>
+	import PropertyCatalogView from '@/components/Property/PropertyCatalogView.vue';
+	import { propertiesData } from '@/data/data.properties';
 export default {
-	name: 'PropertyView'
-
+	name: 'PropertyView',
+	components: {
+		PropertyCatalogView
+	},
+	data () {
+		return {
+			propertiesData: propertiesData
+		}
+	}
 }
 </script>
 
